@@ -1,0 +1,257 @@
+body {
+    font-family: "poppins", bold;
+    background-image: url('background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .custom-background {
+    background-image: url('background.svg');
+    padding: 600px 0;
+    margin-top: -25px;
+  }
+
+  .custom-background-love {
+    background-image: url('background-loveyou.svg');
+    padding: 600px 0;
+    margin-top: -25px;
+  }
+
+  .bgbelummakan {
+    font-family: "poppins", bold;
+    background-image: url('background-custom.svg');
+    padding: 600px 0;
+  }
+
+  html, body {
+    scroll-behavior: smooth;
+    transition-duration: 2s;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    padding: 100px 0;
+    text-align: none;
+    animation-name: fade-in;
+    animation-duration: 2s;
+  }
+
+  .section3edit {
+    padding: 0px 0;
+  }
+
+  .section-love {
+    margin-top: -700px;
+  }
+
+  .text-justify {
+    text-align: justify; /* rata kanan kiri */
+    width: 80%; /* lebar div */
+    margin: 0 auto; /* center div */
+    color: #d6dee9;
+  }
+
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+  .manisha {
+    color: #48B1FF;
+  }
+
+  .slide-up {
+    position: relative;
+    bottom: 0;
+    animation: slide-up 1s forwards;
+  }
+  
+  @keyframes slide-up {
+    from {
+      bottom: -50px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    line-height: 38px;
+    text-align: center;
+  } 
+
+  .h1-edit {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    line-height: 65px;
+    text-align: center;
+  }
+
+  .h1-edit2 {
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .h1-edit-love {
+    font-size: 100px;
+    line-height: 400px;
+  }
+
+  .a-biasaaja {
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #2363C9;
+    color: #fff;
+    border-radius: 100px;
+    transition: background-color 0.2s;
+    margin-right: 5px 
+  }
+
+  .a-belummakan {
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #2363C9;
+    color: #fff;
+    border-radius: 100px;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+    margin-right: 5px 
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  p {
+    color: #8292E0;
+  }
+
+  a:hover {
+    color: #154188;
+  }
+  
+  section {
+    padding: 270px 0;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2edit {
+    padding: 840px 0;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -650px;
+  }
+  
+  
+  section div {
+    max-width: 960px;
+    margin: 0 auto ;
+  }
+
+
+  
+  section h1 {
+    color: #ffffff;
+  }
+  
+  section p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  .p-balas {
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    color: #d6dee9;
+  }
+  
+  section img {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  section a {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #2363C9;
+    color: #fff;
+    border-radius: 100px;
+    transition: background-color 0.2s;
+    margin-right: 5px 
+  }
+
+  section a:hover {
+    background-color: #3d83f3;
+    box-shadow: 10px 10px 45px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .section-a-bales {
+    display: inline-block;
+    padding: 8px 24px;
+    font-size: 85px;
+    font-weight: bold;
+    background-color: #9C61AA;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    margin-top: 800px;
+    margin-right: 5px
+  }
+
+  .section-a-bales:hover {
+    background-color: #d4a2e0;
+    box-shadow: 10px 10px 45px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-out;
+  }
+
+  .section-a-bales:hover {
+    color: #94669f;
+  }
